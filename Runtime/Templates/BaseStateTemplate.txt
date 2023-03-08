@@ -1,0 +1,19 @@
+﻿using FSM;
+
+public class $NAME$StateType : StateType<$NAME$StateType>
+{
+    $STATE_TYPE_DEFINITION_LINE$
+            
+    private $NAME$StateType(string name) : base(name)
+    {
+        
+    }
+}
+
+public abstract class $NAME$BaseState : BaseState<$NAME$Controller, $NAME$StateType>
+{
+    protected $NAME$BaseState($NAME$Controller owner, $NAME$StateType type) : base(owner, type)
+    {
+        
+    }
+}

@@ -1,0 +1,50 @@
+﻿using FSM;
+using UnityEngine;
+
+public class $NAME$Controller : MonoBehaviour
+{
+    private readonly StateMachine<$NAME$Controller, $NAME$BaseState, $NAME$StateType> _stateMachine = new StateMachine<$NAME$Controller, $NAME$BaseState, $NAME$StateType>();
+    public StateMachine<$NAME$Controller, $NAME$BaseState, $NAME$StateType> StateMachine => _stateMachine;
+
+    private void Awake()
+    {
+        Init();
+    }
+
+    private void Start()
+    {
+        SignUpEvents();
+    }
+
+    private void Init()
+    {
+        InitComponents();
+        InitVariables();
+        InitStateMachine();
+    }
+
+    private void InitComponents()
+    {
+        
+    }
+
+    private void InitVariables()
+    {
+        
+    }
+
+    private void InitStateMachine()
+    {
+        var states = new $NAME$BaseState[]
+        {
+            $STATE_INSTANTIATION_LINE$
+        };
+        
+        _stateMachine.Init($NAME$StateType.$FIRST_STATE_NAME$, states);
+    }
+
+    private void SignUpEvents()
+    {
+        
+    }
+}

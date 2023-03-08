@@ -1,0 +1,1 @@
+﻿public static readonly $NAME$StateType $STATE_NAME$ = new $NAME$StateType(nameof($STATE_NAME$));

@@ -1,0 +1,17 @@
+﻿public class $NAME$$STATE_NAME$State : $NAME$BaseState
+{
+	public $NAME$$STATE_NAME$State($NAME$Controller owner, $NAME$StateType type) : base(owner, type)
+	{
+		
+	}
+	
+	public override void Enter()
+	{
+		
+	}
+	
+	public override void Exit()
+	{
+		
+	}
+}

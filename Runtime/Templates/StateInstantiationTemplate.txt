@@ -1,0 +1,1 @@
+﻿new $NAME$$STATE_NAME$State(this, $NAME$StateType.$STATE_NAME$)
