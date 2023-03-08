@@ -33,7 +33,7 @@ public class FSMBasedControllerGenerator : EditorWindow
 	#region Local
 
 	private string PackagesFolderPath => Path.Combine(Application.dataPath, "../Packages");
-	private string TemplateFolderPath => $"{PackagesFolderPath}/com.rotatelab.fsm/Runtime/Templates/";
+	private string TemplateFolderPath => $"{PackagesFolderPath}/com.akinkursatozkan.fsm/Runtime/Templates/";
 	private string BaseStateTemplatePath => $"{TemplateFolderPath}BaseStateTemplate.txt";
 	private string ControllerTemplatePath => $"{TemplateFolderPath}ControllerTemplate.txt";
 	private string StateInstantiationTemplatePath => $"{TemplateFolderPath}StateInstantiationTemplate.txt";
